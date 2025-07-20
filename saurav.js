@@ -1,5 +1,5 @@
 //<script>
-const unique = prompt('input id');
+const unique = prompt('input id').trim();
 
 // Split into two parts
 
