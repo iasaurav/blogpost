@@ -1,9 +1,6 @@
-<div id="flipbook" style="text-align:center; max-width:600px; margin:auto; padding:16px; user-select:none;">
-  <div id="bank-name" style="font-size:22px; font-weight:bold; margin-bottom:12px; color:#222;"></div>
-  <div id="image-container" style="width:100%;"></div>
-</div>
 
-<script>
+
+//<script>
 const banks = [
   { name: "SBI", id: "1koxjuxMbECfSICXAtROqFCMPgz5aO8lJ" },
   { name: "KOT", id: "1kopGAfl6g97zRqGv8xu34FAiB0aMe7nA" }
@@ -59,4 +56,4 @@ document.addEventListener("keydown", e => {
 });
 
 showImage(currentIndex);
-</script>
+//</script>
